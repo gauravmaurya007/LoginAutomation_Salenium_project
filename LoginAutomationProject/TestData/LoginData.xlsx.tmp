@@ -1,0 +1,5 @@
+| username  | password  |
+| --------- | --------- |
+| testuser1 | pass123   |
+| wronguser | wrongpass |
+| admin     | admin123  |
