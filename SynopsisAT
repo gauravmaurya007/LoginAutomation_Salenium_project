@@ -1,14 +1,14 @@
 LoginAutomation — Project Synopsis
-1️⃣ Project Title
+1️.Project Title
 
 LoginAutomation — Automated Login Testing Framework using Selenium WebDriver, Java & TestNG
 
-2️⃣ Introduction
+2️. Introduction
 
 Automation testing uses scripts and tools to execute test cases and verify application behavior with minimal manual effort.
 LoginAutomation is a focused Selenium project that automates and validates the login functionality of a web application and related post-login behaviours. The framework is designed to be modular, maintainable, and suitable for inclusion in CI/CD pipelines.
 
-3️⃣ Objective
+3️. Objective
 
 The primary objectives of this project are:
 
@@ -24,7 +24,7 @@ Make tests data-driven so credentials and scenarios can be supplied from externa
 
 Provide TestNG suite execution and clear test reporting.
 
-4️⃣ Tools & Technologies Used
+4️. Tools & Technologies Used
 Tool / Technology	Purpose
 Java	Programming language
 Selenium WebDriver	Browser automation
@@ -34,7 +34,7 @@ Eclipse IDE / IntelliJ IDEA	Development environment
 WebDriverManager	Automatic driver management
 Apache POI (optional)	Excel-driven data provider
 Git / GitHub	Version control
-5️⃣ Project Architecture
+5️. Project Architecture
 
 The project follows the Page Object Model (POM) design pattern and a simple layered structure:
 
@@ -52,7 +52,7 @@ testng.xml — Suite configuration for grouped execution
 
 This separation improves readability, reusability, and maintainability.
 
-6️⃣ Modules Automated
+6️. Modules Automated
 
 Login Module — valid credentials positive path
 
@@ -66,7 +66,7 @@ Error Handling & Reporting Module — capture screenshots and logs on failure
 
 Each test is independent and can be executed individually or as part of a suite.
 
-7️⃣ Features of the Project
+7️. Features of the Project
 
 Implements Page Object Model (POM) for clean page abstraction
 
@@ -82,7 +82,7 @@ Maven for dependency management and build lifecycle
 
 Ready for CI integration (GitHub Actions/Jenkins)
 
-8️⃣ Execution Process
+8️. Execution Process
 
 Configure config.properties (base URL, browser, timeouts).
 
@@ -100,7 +100,7 @@ TestNG generates an execution report (HTML/XML).
 
 Browser closes after each test or suite (based on config).
 
-9️⃣ Expected Outcome
+9️. Expected Outcome
 
 Positive and negative login scenarios execute automatically.
 
@@ -112,6 +112,6 @@ TestNG report shows pass/fail stats and test run details.
 
 Framework is modular and easy to extend for other modules.
 
-🔟 Conclusion
+10. Conclusion
 
 LoginAutomation demonstrates a practical, maintainable approach to automating login validation using Selenium, Java, and TestNG. The project reduces manual testing effort, provides reliable regression checks, and serves as a base that can be extended to automate more workflows (checkout, profile, search) or integrated into CI pipelines for continuous validation.
